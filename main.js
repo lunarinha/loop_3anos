@@ -5,14 +5,14 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual os melhor time?");
+    var respostaTime = prompt("qual a menina mais linda?");
 
     
     if (respostaTime.toLowerCase() === "athlético pr") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+      alert("Isso mesmo! a lunara é a mais linda!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
-      alert("Não é isso! Tente novamente.");
+      alert("errou!tente novamente.");
     }
   }
 }
